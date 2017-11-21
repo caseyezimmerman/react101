@@ -1,0 +1,36 @@
+.scoreboard{
+	max-width: 600px;
+	margin: auto;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+
+.teams{
+	float: left;
+	width: 100%;
+}
+
+.team-name, .counter{
+	width: 100%;
+	text-align: left;
+	font-size: 20px;
+}
+
+.counter button, .counter div{
+	float: left;
+	width: 33%;
+}
+
+.counter div{
+	text-align: center;
+}
+
+.minus{
+	background-color: navy;
+	color: black;
+}
+
+.plus{
+	background-color: red;
+	color: black;
+}
